@@ -1,26 +1,24 @@
 /*
-2. Classe Filme
+3. Classe Produto
 
 Atributos:
 
-- String titulo
-- String diretor
-- String resumo
-- int duracao (em minutos)
-- int anoLancamento
-- double avaliacao (até 5)
+- String nome
+- String categoria
+- double preco
+- int quantidadeEstoque
+- boolean emPromocao
 
 Construtores:
-
-- Construtor padrão
 - Construtor com todos os atributos
-- Construtor com titulo, diretor e anoLancamento
+- Construtor com nome e preco
 
 Métodos:
 
 - Getters e Setters para todos os atributos
-- public void atualizarAvaliacao(double novaAvaliacao)
-- public String getResumo()
+- public void aplicarPromocao(double percentualDesconto) (aplicar desconto passado por parâmetro 10 até 50% e setar como emPromocão)
+- public String getInfo() (Mostrar todas as características do produto)
+- public boolean verificarDisponibilidade(int quantidadeDesejada)
 */
 
 
