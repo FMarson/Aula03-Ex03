@@ -6,7 +6,7 @@ Atributos:
 - String nome
 - String categoria
 - double preco
-- int quantidadeEstoque
+- int quantidadeTotalEstoque
 - boolean emPromocao
 
 Construtores:
